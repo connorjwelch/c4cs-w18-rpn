@@ -30,6 +30,7 @@ def calculate(myarg):
 
 def main():
     while True:
+        result2 = 0
         result = calculate(input("rpn calc> "))
         print("Result: ", result)
 
